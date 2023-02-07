@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    font-family: Verdana;
+}
+
+footer, header{
+    background-color:  #4682B4;
+    color: white;
+    padding: 20px;
+    font-size: 120%;
+    text-align: center;
+}
+.lewo{
+    background-color: #40E0D0;
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+.prawo{
+    background-color: #40E0D0;
+    width: 60%;
+    height: 500px;
+    float: left;
+}
+footer{
+    clear: both;
+}
+.sum{
+    margin: 10px; 
+    padding: 5px;
+    border: 1px solid #000080;
+}

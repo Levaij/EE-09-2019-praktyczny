@@ -1,0 +1,4 @@
+1: SELECT nazwa, wystepowanie FROM ryby;
+2: SELECT Ryby_id, wymiar_ochronny WHERE wymiar_ochronny < 50;
+3: ALTER TABLE ryby ADD dobowy_limit int;
+4: SELECT nazwa, akwen , wojewodztwo FROM ryby INNER JOIN lowisko ON lowisko.Ryby_id=ryby.id WHERE rodzaj = 2;
